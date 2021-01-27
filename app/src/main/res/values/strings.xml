@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">TIME TABLE</string>
+    <string name="lastWeek">Previous Week</string>
+    <string name="nextWeek">Next Week</string>
+    <string name="back">Back</string>
+    <string name="delCourse">Delete Course</string>
+    <string name="startdate">Start date: </string>
+    <string name="courseName">Course Name</string>
+    <string name="courseTeacher">Course Teacher</string>
+    <string name="startWeek">Start Week</string>
+    <string name="endWeek">End Week</string>
+    <string name="addSection">Add Section</string>
+    <string name="saveEdit">Save Edit</string>
+    <string name="week">Weekday</string>
+    <string name="section">Section</string>
+    <string name="normal">Normal</string>
+    <string name="singleWeek">Single</string>
+    <string name="doubleWeek">Double</string>
+    <string name="classRoom">Class Room</string>
+    <string name="singleDouble"><![CDATA[Single & Double week]]></string>
+    <string name="navi">Navigation</string>
+    <string name="list">TO-DO List</string>
+    <string name="info">Information deatailed</string>
+    <string name="timetable">Timetable</string>
+    <string name="tdlist">TO-DO List</string>
+    <string name="set">Setting</string>
+    <string name="option">Course List</string>
+    <string name="school">School: </string>
+    <string name="tips">Please choose here to select the start date of college</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

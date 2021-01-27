@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:padding="18dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="18dp"
+                android:src="@drawable/time" />
+
+            <EditText
+                android:id="@+id/datetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="yyyy-MM-dd"
+                android:inputType="date"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/timetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="HH:mm:ss"
+                android:inputType="time"
+                android:textColorHighlight="@color/titleColor"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="23dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="18dp"
+                android:src="@drawable/calendar" />
+
+            <EditText
+                android:id="@+id/titletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="Title"
+                android:inputType="textPersonName"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="18dp"
+                android:src="@drawable/category" />
+
+            <EditText
+                android:id="@+id/infotext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Detailed information"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

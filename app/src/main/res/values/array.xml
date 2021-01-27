@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TechBuildings">
+        <item>第一教学楼</item>
+        <item>第二教学楼</item>
+        <item>第三教学楼</item>
+        <item>第四教学楼</item>
+    </string-array>
+    <string-array name="Sections">
+        <item>1|8:00-9:00</item>
+        <item>2|9:15-10:15</item>
+        <item>3|10:30-11:30</item>
+        <item>4|13:30-14:30</item>
+        <item>5|14:45-15:45</item>
+        <item>6|16:00-17:00</item>
+        <item>7|18:00-19:00</item>
+        <item>8|19:15-20:15</item>
+        <item>9|20:30-21:30</item>
+    </string-array>
+    <string-array name="Weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+    <string-array name="media">
+        <item>Ana</item>
+        <item>Bastion</item>
+        <item>Brigitte</item>
+        <item>Doomfits</item>
+        <item>Phara</item>
+        <item>Soilder</item>
+        <item>Tracer</item>
+    </string-array>
+</resources>
